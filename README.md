@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /># codepath-gram
+<img src='iphone-13-pro-max.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
