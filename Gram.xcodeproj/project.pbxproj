@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4D6BF18A811974311E72F1C9 /* Pods_Gram_GramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA92617E4AB6A225F17612E /* Pods_Gram_GramUITests.framework */; };
+		4F47383627D99C6F00C421D5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47383527D99C6F00C421D5 /* CommentCell.swift */; };
 		4FB4C00B27D821590009CC40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C00A27D821590009CC40 /* AppDelegate.swift */; };
 		4FB4C00D27D821590009CC40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C00C27D821590009CC40 /* SceneDelegate.swift */; };
-		4FB4C00F27D8215A0009CC40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C00E27D8215A0009CC40 /* ViewController.swift */; };
 		4FB4C01227D8215A0009CC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4C01027D8215A0009CC40 /* Main.storyboard */; };
 		4FB4C01427D8215A0009CC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4C01327D8215A0009CC40 /* Assets.xcassets */; };
 		4FB4C01727D8215A0009CC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4C01527D8215A0009CC40 /* LaunchScreen.storyboard */; };
@@ -46,10 +46,10 @@
 		044B25F1E9015721D13ACE96 /* Pods-GramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramTests.debug.xcconfig"; path = "Target Support Files/Pods-GramTests/Pods-GramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13D8BF2E344ABF358BDB37DB /* Pods-Gram-GramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gram-GramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gram-GramUITests/Pods-Gram-GramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3610E389E4F558379F01E2FD /* Pods-GramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramTests.release.xcconfig"; path = "Target Support Files/Pods-GramTests/Pods-GramTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F47383527D99C6F00C421D5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		4FB4C00727D821590009CC40 /* Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB4C00A27D821590009CC40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB4C00C27D821590009CC40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FB4C00E27D8215A0009CC40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FB4C01127D8215A0009CC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FB4C01327D8215A0009CC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB4C01627D8215A0009CC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,7 +126,6 @@
 			children = (
 				4FB4C00A27D821590009CC40 /* AppDelegate.swift */,
 				4FB4C00C27D821590009CC40 /* SceneDelegate.swift */,
-				4FB4C00E27D8215A0009CC40 /* ViewController.swift */,
 				4FB4C01027D8215A0009CC40 /* Main.storyboard */,
 				4FB4C01327D8215A0009CC40 /* Assets.xcassets */,
 				4FB4C01527D8215A0009CC40 /* LaunchScreen.storyboard */,
@@ -135,6 +134,7 @@
 				4FB4C03C27D824D20009CC40 /* FeedViewController.swift */,
 				4FB4C04227D82FE50009CC40 /* FeedCell.swift */,
 				4FB4C03E27D8296C0009CC40 /* PostViewController.swift */,
+				4F47383527D99C6F00C421D5 /* CommentCell.swift */,
 			);
 			path = Gram;
 			sourceTree = "<group>";
@@ -421,10 +421,10 @@
 				4FB4C04327D82FE50009CC40 /* FeedCell.swift in Sources */,
 				4FB4C03F27D8296C0009CC40 /* PostViewController.swift in Sources */,
 				4FB4C03B27D824C90009CC40 /* LoginViewController.swift in Sources */,
-				4FB4C00F27D8215A0009CC40 /* ViewController.swift in Sources */,
 				4FB4C03D27D824D20009CC40 /* FeedViewController.swift in Sources */,
 				4FB4C00B27D821590009CC40 /* AppDelegate.swift in Sources */,
 				4FB4C00D27D821590009CC40 /* SceneDelegate.swift in Sources */,
+				4F47383627D99C6F00C421D5 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

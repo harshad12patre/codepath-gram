@@ -10,8 +10,9 @@ import UIKit
 class FeedCell: UITableViewCell {
     
     @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var userLabel: UILabel!
+//    @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var userLabelTop: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

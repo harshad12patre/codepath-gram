@@ -17,6 +17,7 @@ target 'Gram' do
   end
 
     pod 'Parse'
+    pod 'MessageInputBar'
     pod 'AlamofireImage'
 
 end
